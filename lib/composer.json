@@ -1,0 +1,18 @@
+{
+  "name": "stidner/woocommerce-payson-shipping",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Stidner Complete AB",
+      "email": "integration@stidner.com",
+      "homepage": "http://www.stidner.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Stidner\\": "src"
+    }
+  }
+}

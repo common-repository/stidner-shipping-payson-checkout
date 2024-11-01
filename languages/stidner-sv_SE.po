@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stidner Shipping\n"
+"POT-Creation-Date: 2018-07-06 09:53+0200\n"
+"PO-Revision-Date: 2018-07-06 09:53+0200\n"
+"Last-Translator: Harrison Yates <harrison@stidner.com>\n"
+"Language-Team: Stidner Complete AB <integration@stidner.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: stidner.php\n"
+"X-Poedit-SearchPath-2: lib/src\n"
+
+#: lib/src/Api/Stidner/Stidner.php:151
+msgid "Stidner Shipping plugin settings page"
+msgstr "Stidner Frakt inställningssidan"
+
+#: lib/src/Api/Stidner/Stidner.php:152 lib/src/Api/Stidner/Stidner.php:223
+#, php-format
+msgid ""
+"You didn't provide your Stidner credentials. Please go to %s and specify the "
+"credentials there."
+msgstr ""
+"Ni har inte angivit er Stinder API-nyckel till wooCommerce. Vänligen gå till "
+"%s och ange er API-nyckel. Stidners API-nyckel finner ni här -> https://"
+"dashboard.stidner.com/panel/api."
+
+#: lib/src/Api/Stidner/Stidner.php:209 lib/src/Woocommerce/CheckoutPage.php:182
+msgid "Stidner Error"
+msgstr "Stidner Felmeddelande"
+
+#: lib/src/Api/Stidner/Stidner.php:225
+#, php-format
+msgid ""
+"Merchant with specified API credentials is not found. Please go to %s and "
+"check if you specified correct credentials. You can obtain your API "
+"credentials at dashboard.stidner.com"
+msgstr ""
+"Den API-nyckel som ni har specificerat kan ej hittas. Vänligen gå till %s "
+"och se om ni angivit korrekt API-nyckel. Ni hittar er nyckel genom att gå "
+"till -> https://dashboard.stidner.com/panel/api"
+
+#: lib/src/Api/Stidner/Stidner.php:227
+#, php-format
+msgid ""
+"You are using Live API Key, but your Stidner account is not in live mode "
+"yet. Please go to %s and specify sandbox API Key. You can obtain your API "
+"credentials at dashboard.stidner.com"
+msgstr ""
+"Ni använder er skarpa API-nyckel, men ert Stidner konto är ännu ej aktiverat "
+"till ett skarpt konto. Vänligen gå till %s för att byta API-nyckel. Ni kan "
+"även gå till -> https://dashboard.stidner.com/panel/settings/company för att "
+"aktivera ert konto till ett skarpt konto"
+
+#: lib/src/Api/Stidner/Stidner.php:231
+msgid "This order is in Test mode, and thus we can't request a pickup for it."
+msgstr ""
+"Er order har skapats i test-läge och kan därför inte skapa en skarp "
+"upphämtning."
+
+#: lib/src/Api/Stidner/Stidner.php:235
+#, php-format
+msgid ""
+"This order is missing some information. Please go to %s and correct this "
+"order's information."
+msgstr ""
+"Er order saknar obligatorisk information. Vänligen gå till %s och korrigera "
+"orderinformationen."
+
+#: lib/src/Woocommerce/CheckoutActions.php:188
+msgid "You can't apply this coupon because price can't be less than 6"
+msgstr "Denna kupong går ej att nyttja då priset ej kan vara mindre än 6 kr"
+
+#: lib/src/Woocommerce/CheckoutPage.php:69
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutSetupPaysonAPI.php:280
+msgid "Internal Error"
+msgstr "Internt Felmeddelande"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:122
+msgid "Checkout Id not received of unclear reason"
+msgstr "Checkout ID saknas, okänt tekniskt fel"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:174
+msgid "Payson API errors"
+msgstr "Payson API felmeddelande"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:186
+msgid "PaysonCheckout plugin settings page"
+msgstr "PaysonCheckout inställningssidan"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:187
+#, php-format
+msgid ""
+"You didn't provide your Payson credentials. Please go to %s and specify the "
+"credentials there."
+msgstr ""
+"Ni har inte angivit er Payson API-nyckel till wooCommerce. Vänligen gå till "
+"%s och ange er API-nyckel."
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:276
+msgid "Checkout object which should be updated must have id property set"
+msgstr "Checkout objekt saknades ID vid uppdatering"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:22
+msgid "Payson"
+msgstr "Payson"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:25
+msgid ""
+"Allows payments through Payson. <a target=\"_blank\" href=\"https://account."
+"payson.se/account/create/?type=b\">Click here to signup</a>."
+msgstr ""
+"För att komma igång med Payson, <a target=\"_blank\" href=\"https://account."
+"payson.se/account/create/?type=b\">registrera ett konto här</a>."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:64
+msgid "Agent ID"
+msgstr "Ombuds ID"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:66
+msgid ""
+"Your Payson Agent ID. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Click here to sign up</a>, if you aren't currently "
+"a Payson customer"
+msgstr ""
+"Er Payson Butiks-ID. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Registrera ett Payson konto</a> om ni ännu inte "
+"blivit kund"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:71
+#: lib/src/Woocommerce/Shipping.php:54
+msgid "API Key"
+msgstr "API Nyckel"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:73
+msgid ""
+"Your Payson API Key. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Click here to sign up</a>, if you aren't currently "
+"a Payson customer"
+msgstr ""
+"Er Payson API-Nyckel. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Registrera ett Payson konto</a> om ni ännu inte "
+"blivit kund"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:78
+msgid "Testmode"
+msgstr "Testläge"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:80
+msgid "Enable PaysonCheckout testmode"
+msgstr "Aktivera PaysonCheckout testläge"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:84
+msgid "Color Scheme"
+msgstr "Färgschema"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:87
+msgid "Gray"
+msgstr "Grå"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:88
+msgid "Blue"
+msgstr "Blå"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:89
+msgid "White"
+msgstr "Vit"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:90
+msgid "GrayTextLogos"
+msgstr "GråTextLogotyp"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:91
+msgid "BlueTextLogos"
+msgstr "BlåTextLogotyp"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:92
+msgid "WhiteTextLogos"
+msgstr "VitaTextLogotyp"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:93
+msgid "GrayNoFooter"
+msgstr "Grå utan sidfot"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:94
+msgid "BlueNoFooter"
+msgstr "Blå utan sidfot"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:95
+msgid "WhiteNoFooter"
+msgstr "Vit utan sidfot"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:97
+msgid ""
+"Different color schemes for how the embedded PaysonCheckout iframe should be "
+"displayed."
+msgstr "Ni kan ändra färgschema för olika utseenden för er Payson Checkout."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:103
+msgid "Show terms checkbox"
+msgstr "Visa kryssruta för villkor"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:105
+msgid "Show checkbox for WooCommerce terms and conditions on checkout page"
+msgstr "Visa kryssruta för WooCommerce villkor i kassan"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:109
+msgid "Debug Log"
+msgstr "Felsökningslogg"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:111
+msgid "Enable logging"
+msgstr "Aktivera logg"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:190
+msgid "Order was cancelled."
+msgstr "Ordern var avbruten."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutProcessOrderLines.php:119
+msgid "Stidner Shipping"
+msgstr "Stidner frakt"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutResponseHandler.php:165
+msgid "PaysonCheckout payment was denied."
+msgstr "PaysonCheckout betalning var nekad."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutSetupPaysonAPI.php:330
+msgid ""
+"The entered Payson Merchant ID, API Key or test/live mode is not correct."
+msgstr ""
+"Den angivna Payson Butiks ID eller API Nyckeln för test/live läge är ej "
+"korrekt."
+
+#: lib/src/Woocommerce/OrderTable.php:32
+msgid "Stidner Shipping details"
+msgstr "Stidner Fraktinformation"
+
+#: lib/src/Woocommerce/OrderTable.php:97 lib/src/Woocommerce/OrderTable.php:544
+msgid "Address is successfully updated"
+msgstr "Adressen har blivit uppdaterad med lyckat resultat"
+
+#: lib/src/Woocommerce/OrderTable.php:100
+#: lib/src/Woocommerce/OrderTable.php:528
+#: lib/src/Woocommerce/OrderTable.php:550
+msgid "You cannot update address for this order"
+msgstr "Ni kan inte uppdatera adressen för denna order"
+
+#: lib/src/Woocommerce/OrderTable.php:139
+#: lib/src/Woocommerce/OrderTable.php:843
+msgid "Pending"
+msgstr "Pågående"
+
+#: lib/src/Woocommerce/OrderTable.php:151
+#: lib/src/Woocommerce/OrderTable.php:862
+msgid "Type"
+msgstr "Typ"
+
+#: lib/src/Woocommerce/OrderTable.php:160
+#: lib/src/Woocommerce/OrderTable.php:861
+msgid "Status"
+msgstr "Status"
+
+#: lib/src/Woocommerce/OrderTable.php:168
+#: lib/src/Woocommerce/OrderTable.php:1053
+msgid "Direction"
+msgstr "Riktning"
+
+#: lib/src/Woocommerce/OrderTable.php:173
+#: lib/src/Woocommerce/OrderTable.php:1051
+msgid "Tracking number"
+msgstr "Spårningsnummer"
+
+#: lib/src/Woocommerce/OrderTable.php:185
+#: lib/src/Woocommerce/OrderTable.php:1059
+msgid "Pickup status"
+msgstr "Upphämtnings status"
+
+#: lib/src/Woocommerce/OrderTable.php:189
+msgid "Pickup identifier"
+msgstr "Upphämtnings identifierare"
+
+#: lib/src/Woocommerce/OrderTable.php:194
+msgid "Pickup errors"
+msgstr "Upphämtnings felmeddelande"
+
+#: lib/src/Woocommerce/OrderTable.php:198
+#: lib/src/Woocommerce/OrderTable.php:1056
+msgid "Shipped at"
+msgstr "Levererad"
+
+#: lib/src/Woocommerce/OrderTable.php:219
+#: lib/src/Woocommerce/OrderTable.php:832
+msgid "Express delivery"
+msgstr "Expressleverans"
+
+#: lib/src/Woocommerce/OrderTable.php:223
+#: lib/src/Woocommerce/OrderTable.php:834
+msgid "Service point"
+msgstr "Ombudsleverans"
+
+#: lib/src/Woocommerce/OrderTable.php:227
+#: lib/src/Woocommerce/OrderTable.php:836
+msgid "Mail delivery"
+msgstr "Brevlådsleverans"
+
+#: lib/src/Woocommerce/OrderTable.php:231
+#: lib/src/Woocommerce/OrderTable.php:838
+msgid "Store pickup"
+msgstr "Hämta i butik"
+
+#: lib/src/Woocommerce/OrderTable.php:258
+#: lib/src/Woocommerce/OrderTable.php:277
+msgid "Not requested yet"
+msgstr "Ej ännu efterfrågad"
+
+#: lib/src/Woocommerce/OrderTable.php:261
+msgid "Scheduled"
+msgstr "Schemalagd"
+
+#: lib/src/Woocommerce/OrderTable.php:264
+msgid "Processing"
+msgstr "Pågående"
+
+#: lib/src/Woocommerce/OrderTable.php:267
+msgid "Processed"
+msgstr "Bearbetad"
+
+#: lib/src/Woocommerce/OrderTable.php:270
+msgid "Processed with errors"
+msgstr "Bearbetad med felmeddelande"
+
+#: lib/src/Woocommerce/OrderTable.php:274
+msgid "Pickup not supported"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:280
+msgid "Requested"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:283
+msgid "Failed"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:353
+msgid "Stidner shipping information"
+msgstr "Stidner Fraktinformation"
+
+#: lib/src/Woocommerce/OrderTable.php:385
+#: lib/src/Woocommerce/OrderTable.php:431
+#: lib/src/Woocommerce/OrderTable.php:458
+msgid "Error creating labels, please see Wordpress log for more information."
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:402
+#: lib/src/Woocommerce/OrderTable.php:421
+msgid ""
+"Labels were successfully created, you can download them from the table below."
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:564
+#: lib/src/Woocommerce/OrderTable.php:585
+#: lib/src/Woocommerce/OrderTable.php:615
+msgid "Error booking pickup, please see Wordpress log for more information."
+msgstr ""
+"Felmeddelande vid bokning av upphämtning, vänligen sen Wordpress fel logg "
+"för mer information."
+
+#: lib/src/Woocommerce/OrderTable.php:601
+msgid "Pickup booking created successfully!"
+msgstr "Er bokning skapades med ett lyckat resultat!"
+
+#: lib/src/Woocommerce/OrderTable.php:713
+msgid "Carrier and price"
+msgstr "Transportör och pris"
+
+#: lib/src/Woocommerce/OrderTable.php:721
+msgid "Ship order"
+msgstr "Skicka beställning"
+
+#: lib/src/Woocommerce/OrderTable.php:729
+msgid "Return order"
+msgstr "Returnera order"
+
+#: lib/src/Woocommerce/OrderTable.php:739
+msgid "Labels"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:793
+msgid "Service Point"
+msgstr "Ombudsleverans"
+
+#: lib/src/Woocommerce/OrderTable.php:811
+msgid "Pick-up at"
+msgstr "Upphämtas vid"
+
+#: lib/src/Woocommerce/OrderTable.php:846 stidner.php:68
+msgid "Shipped"
+msgstr "Skickad"
+
+#: lib/src/Woocommerce/OrderTable.php:863 templates/cart/cart.php:72
+#: templates/cart/cart.php:184
+msgid "Price"
+msgstr "Pris"
+
+#: lib/src/Woocommerce/OrderTable.php:930
+msgid "Ship"
+msgstr "Skicka"
+
+#: lib/src/Woocommerce/OrderTable.php:935
+#: lib/src/Woocommerce/OrderTable.php:1004
+#: lib/src/Woocommerce/OrderTable.php:1034
+msgid "Return"
+msgstr "Retur"
+
+#: lib/src/Woocommerce/OrderTable.php:940
+msgid "Shipment + Return"
+msgstr "Skicka + Retur"
+
+#: lib/src/Woocommerce/OrderTable.php:943
+msgid "Order is fully shipped"
+msgstr "Frakt är nu fullständigt bokad för ordern"
+
+#: lib/src/Woocommerce/OrderTable.php:1007
+msgid "No more items to return"
+msgstr "Inga fler varor att returera"
+
+#: lib/src/Woocommerce/OrderTable.php:1031
+msgid "Shipment"
+msgstr "Frakt"
+
+#: lib/src/Woocommerce/OrderTable.php:1054
+msgid "Label url"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:1055
+msgid "Link"
+msgstr "Länk"
+
+#: lib/src/Woocommerce/OrderTable.php:1061
+msgid "Request Pickup"
+msgstr "Boka upphämtning"
+
+#: lib/src/Woocommerce/Shipping.php:48
+msgid "Merchant ID"
+msgstr "Butiks ID"
+
+#: lib/src/Woocommerce/Shipping.php:50
+msgid ""
+"Your Merchant ID from <a target=\"_blank\" href=\"https://dashboard.stidner."
+"com/panel/api\">dashboard</a>"
+msgstr ""
+"Ert Butiks-ID från <a target=\"_blank\" href=\"https://dashboard.stidner.com/"
+"panel/api\">Stidner dashboard</a>"
+
+#: lib/src/Woocommerce/Shipping.php:56
+msgid ""
+"Your API Key from <a target=\"_blank\" href=\"https://dashboard.stidner.com/"
+"panel/api\">dashboard</a>"
+msgstr ""
+"Ert API-Nyckel från <a target=\"_blank\" href=\"https://dashboard.stidner."
+"com/panel/api\">Stidner dashboard</a>"
+
+#: lib/src/Woocommerce/Shipping.php:60
+msgid "Step 1 Title"
+msgstr "Steg 1 Titel"
+
+#: lib/src/Woocommerce/Shipping.php:66
+msgid "Step 2 Title"
+msgstr "Steg 2 Titel"
+
+#: lib/src/Woocommerce/Shipping.php:72
+msgid "Step 3 Title"
+msgstr "Steg 3 Titel"
+
+#: lib/src/Woocommerce/WcOrderActions.php:32
+#: lib/src/Woocommerce/WcOrderActions.php:87
+#: lib/src/Woocommerce/WcOrderActions.php:135
+#: lib/src/Woocommerce/WcOrderActions.php:220
+msgid "Error: Unable to create order. Please try again."
+msgstr "Felmeddelande: Kan inte skapa order. Vänligen försök senare."
+
+#: lib/src/Woocommerce/WcOrderActions.php:116
+msgid "Error: Unable to add order item. Please try again."
+msgstr "Felmeddelande: Kan inte lägga till vara. Vänligen försök senare."
+
+#: lib/src/Woocommerce/WcOrderActions.php:205
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Felmeddelande %d: Kan ej skapa ordern. Vänligen försök senare."
+
+#: stidner.php:92
+msgid "Track your package"
+msgstr "Spåra ditt paket"
+
+#: templates/cart/cart.php:71 templates/cart/cart.php:146
+msgid "Product"
+msgstr "Produkt"
+
+#: templates/cart/cart.php:73 templates/cart/cart.php:195
+msgid "Quantity"
+msgstr "Antal"
+
+#: templates/cart/cart.php:74 templates/cart/cart.php:224
+msgid "Total"
+msgstr "Totalt"
+
+#: templates/cart/cart.php:120
+msgid "Remove this item"
+msgstr "Ta bort vara"
+
+#: templates/cart/cart.php:177
+msgid "Available on backorder"
+msgstr "Finns som restnoterad"
+
+#: templates/cart/cart.php:244
+msgid "Coupon:"
+msgstr "Kupong:"
+
+#: templates/cart/cart.php:251
+msgid "Coupon code"
+msgstr "Kupong kod"
+
+#: templates/cart/cart.php:255
+msgid "Apply coupon"
+msgstr "Använd kupong"
+
+#: templates/cart/cart.php:261
+msgid "Update cart"
+msgstr "Uppdatera kundkorg"
+
+#: templates/checkout/thankyou.php:12
+msgid "Order Received - №"
+msgstr "Ordernummer"
+
+#~ msgid ""
+#~ "Error creating waybills, please see Wordpress log for more information."
+#~ msgstr ""
+#~ "Fel vid skapande av fraktsedel, vänligen se Wordpress loggen för mer "
+#~ "information."
+
+#~ msgid ""
+#~ "Waybills were successfully created, you can download them from the table "
+#~ "below."
+#~ msgstr "Fraktsedel skapad, ni kan ladda ner sedeln i tabellen nedan."
+
+#~ msgid "Waybills"
+#~ msgstr "Fraktsedel"
+
+#~ msgid "Waybill url"
+#~ msgstr "Fraktsedelns adress"
+
+#~ msgid ""
+#~ "Allows your customers to choose their shipment option and servicepoint "
+#~ "directly in checkout. <a target=\"_blank\" href=\"https://dashboard."
+#~ "stidner.com/auth/register\">Click here to sign up</a>."
+#~ msgstr ""
+#~ "Erbjud era kunder en bättre fraktupplevelse vid kassan för ökad "
+#~ "konvertering. <a target=\"_blank\" href=\"https://dashboard.stidner.com/"
+#~ "auth/register\">Skapa ett konto här</a>."

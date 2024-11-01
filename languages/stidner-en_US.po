@@ -1,0 +1,610 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stidner Shipping\n"
+"POT-Creation-Date: 2018-07-06 09:54+0200\n"
+"PO-Revision-Date: 2018-07-06 09:54+0200\n"
+"Last-Translator: Harrison Yates <harrison@stidner.com>\n"
+"Language-Team: Stidner Complete AB <integration@stidner.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: stidner.php\n"
+"X-Poedit-SearchPath-2: lib/src\n"
+
+#: lib/src/Api/Stidner/Stidner.php:151
+msgid "Stidner Shipping plugin settings page"
+msgstr "Stidner Shipping plugin settings page"
+
+#: lib/src/Api/Stidner/Stidner.php:152 lib/src/Api/Stidner/Stidner.php:223
+#, php-format
+msgid ""
+"You didn't provide your Stidner credentials. Please go to %s and specify the "
+"credentials there."
+msgstr ""
+"You didn't provide your Stidner credentials. Please go to %s and specify the "
+"credentials there."
+
+#: lib/src/Api/Stidner/Stidner.php:209 lib/src/Woocommerce/CheckoutPage.php:182
+msgid "Stidner Error"
+msgstr "Stidner Error"
+
+#: lib/src/Api/Stidner/Stidner.php:225
+#, php-format
+msgid ""
+"Merchant with specified API credentials is not found. Please go to %s and "
+"check if you specified correct credentials. You can obtain your API "
+"credentials at dashboard.stidner.com"
+msgstr ""
+"Merchant with specified API credentials is not found. Please go to %s and "
+"check if you specified correct credentials. You can obtain your API "
+"credentials at dashboard.stidner.com"
+
+#: lib/src/Api/Stidner/Stidner.php:227
+#, php-format
+msgid ""
+"You are using Live API Key, but your Stidner account is not in live mode "
+"yet. Please go to %s and specify sandbox API Key. You can obtain your API "
+"credentials at dashboard.stidner.com"
+msgstr ""
+"You are using Live API Key, but your Stidner account is not in live mode "
+"yet. Please go to %s and specify sandbox API Key. You can obtain your API "
+"credentials at dashboard.stidner.com"
+
+#: lib/src/Api/Stidner/Stidner.php:231
+msgid "This order is in Test mode, and thus we can't request a pickup for it."
+msgstr ""
+
+#: lib/src/Api/Stidner/Stidner.php:235
+#, php-format
+msgid ""
+"This order is missing some information. Please go to %s and correct this "
+"order's information."
+msgstr ""
+
+#: lib/src/Woocommerce/CheckoutActions.php:188
+msgid "You can't apply this coupon because price can't be less than 6"
+msgstr "You can't apply this coupon because price can't be less than 6"
+
+#: lib/src/Woocommerce/CheckoutPage.php:69
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutSetupPaysonAPI.php:280
+msgid "Internal Error"
+msgstr "Internal Error"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:122
+msgid "Checkout Id not received of unclear reason"
+msgstr "Checkout Id not received of unclear reason"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:174
+msgid "Payson API errors"
+msgstr "Payson API errors"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:186
+msgid "PaysonCheckout plugin settings page"
+msgstr "PaysonCheckout plugin settings page"
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:187
+#, php-format
+msgid ""
+"You didn't provide your Payson credentials. Please go to %s and specify the "
+"credentials there."
+msgstr ""
+"You didn't provide your Payson credentials. Please go to %s and specify the "
+"credentials there."
+
+#: lib/src/Woocommerce/Gateways/Payson/Lib/PaysonApi.php:276
+msgid "Checkout object which should be updated must have id property set"
+msgstr "Checkout object which should be updated must have id property set"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:22
+msgid "Payson"
+msgstr "Payson"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:25
+msgid ""
+"Allows payments through Payson. <a target=\"_blank\" href=\"https://account."
+"payson.se/account/create/?type=b\">Click here to signup</a>."
+msgstr ""
+"Allows payments through Payson. <a target=\"_blank\" href=\"https://account."
+"payson.se/account/create/?type=b\">Click here to signup</a>."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:64
+msgid "Agent ID"
+msgstr "Agent ID"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:66
+msgid ""
+"Your Payson Agent ID. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Click here to sign up</a>, if you aren't currently "
+"a Payson customer"
+msgstr ""
+"Your Payson Agent ID. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Click here to sign up</a>, if you aren't currently "
+"a Payson customer"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:71
+#: lib/src/Woocommerce/Shipping.php:54
+msgid "API Key"
+msgstr "API Key"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:73
+msgid ""
+"Your Payson API Key. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Click here to sign up</a>, if you aren't currently "
+"a Payson customer"
+msgstr ""
+"Your Payson API Key. <a target=\"_blank\" href=\"https://account.payson.se/"
+"account/create/?type=b\">Click here to sign up</a>, if you aren't currently "
+"a Payson customer"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:78
+msgid "Testmode"
+msgstr "Testmode"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:80
+msgid "Enable PaysonCheckout testmode"
+msgstr "Enable PaysonCheckout testmode"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:84
+msgid "Color Scheme"
+msgstr "Color Scheme"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:87
+msgid "Gray"
+msgstr "Gray"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:88
+msgid "Blue"
+msgstr "Blue"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:89
+msgid "White"
+msgstr "White"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:90
+msgid "GrayTextLogos"
+msgstr "GrayTextLogos"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:91
+msgid "BlueTextLogos"
+msgstr "BlueTextLogos"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:92
+msgid "WhiteTextLogos"
+msgstr "WhiteTextLogos"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:93
+msgid "GrayNoFooter"
+msgstr "GrayNoFooter"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:94
+msgid "BlueNoFooter"
+msgstr "BlueNoFooter"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:95
+msgid "WhiteNoFooter"
+msgstr "WhiteNoFooter"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:97
+msgid ""
+"Different color schemes for how the embedded PaysonCheckout iframe should be "
+"displayed."
+msgstr ""
+"Different color schemes for how the embedded PaysonCheckout iframe should be "
+"displayed."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:103
+msgid "Show terms checkbox"
+msgstr "Show terms checkbox"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:105
+msgid "Show checkbox for WooCommerce terms and conditions on checkout page"
+msgstr "Show checkbox for WooCommerce terms and conditions on checkout page"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:109
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:111
+msgid "Enable logging"
+msgstr "Enable logging"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcGatewayPaysonCheckout.php:190
+msgid "Order was cancelled."
+msgstr "Order was cancelled."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutProcessOrderLines.php:119
+msgid "Stidner Shipping"
+msgstr "Stidner Shipping"
+
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutResponseHandler.php:165
+msgid "PaysonCheckout payment was denied."
+msgstr "PaysonCheckout payment was denied."
+
+#: lib/src/Woocommerce/Gateways/Payson/WcPaysonCheckoutSetupPaysonAPI.php:330
+msgid ""
+"The entered Payson Merchant ID, API Key or test/live mode is not correct."
+msgstr ""
+"The entered Payson Merchant ID, API Key or test/live mode is not correct."
+
+#: lib/src/Woocommerce/OrderTable.php:32
+msgid "Stidner Shipping details"
+msgstr "Stidner Shipping details"
+
+#: lib/src/Woocommerce/OrderTable.php:97 lib/src/Woocommerce/OrderTable.php:544
+msgid "Address is successfully updated"
+msgstr "Address is successfully updated"
+
+#: lib/src/Woocommerce/OrderTable.php:100
+#: lib/src/Woocommerce/OrderTable.php:528
+#: lib/src/Woocommerce/OrderTable.php:550
+msgid "You cannot update address for this order"
+msgstr "You cannot update address for this order"
+
+#: lib/src/Woocommerce/OrderTable.php:139
+#: lib/src/Woocommerce/OrderTable.php:843
+msgid "Pending"
+msgstr "Pending"
+
+#: lib/src/Woocommerce/OrderTable.php:151
+#: lib/src/Woocommerce/OrderTable.php:862
+msgid "Type"
+msgstr "Type"
+
+#: lib/src/Woocommerce/OrderTable.php:160
+#: lib/src/Woocommerce/OrderTable.php:861
+msgid "Status"
+msgstr "Status"
+
+#: lib/src/Woocommerce/OrderTable.php:168
+#: lib/src/Woocommerce/OrderTable.php:1053
+msgid "Direction"
+msgstr "Direction"
+
+#: lib/src/Woocommerce/OrderTable.php:173
+#: lib/src/Woocommerce/OrderTable.php:1051
+msgid "Tracking number"
+msgstr "Tracking number"
+
+#: lib/src/Woocommerce/OrderTable.php:185
+#: lib/src/Woocommerce/OrderTable.php:1059
+msgid "Pickup status"
+msgstr "Pickup status"
+
+#: lib/src/Woocommerce/OrderTable.php:189
+msgid "Pickup identifier"
+msgstr "Pickup identifier"
+
+#: lib/src/Woocommerce/OrderTable.php:194
+msgid "Pickup errors"
+msgstr "Pickup errors"
+
+#: lib/src/Woocommerce/OrderTable.php:198
+#: lib/src/Woocommerce/OrderTable.php:1056
+msgid "Shipped at"
+msgstr "Shipped at"
+
+#: lib/src/Woocommerce/OrderTable.php:219
+#: lib/src/Woocommerce/OrderTable.php:832
+msgid "Express delivery"
+msgstr "Express delivery"
+
+#: lib/src/Woocommerce/OrderTable.php:223
+#: lib/src/Woocommerce/OrderTable.php:834
+msgid "Service point"
+msgstr "Service point"
+
+#: lib/src/Woocommerce/OrderTable.php:227
+#: lib/src/Woocommerce/OrderTable.php:836
+msgid "Mail delivery"
+msgstr "Mail delivery"
+
+#: lib/src/Woocommerce/OrderTable.php:231
+#: lib/src/Woocommerce/OrderTable.php:838
+msgid "Store pickup"
+msgstr "Store pickup"
+
+#: lib/src/Woocommerce/OrderTable.php:258
+#: lib/src/Woocommerce/OrderTable.php:277
+msgid "Not requested yet"
+msgstr "Not requested yet"
+
+#: lib/src/Woocommerce/OrderTable.php:261
+msgid "Scheduled"
+msgstr "Scheduled"
+
+#: lib/src/Woocommerce/OrderTable.php:264
+msgid "Processing"
+msgstr "Processing"
+
+#: lib/src/Woocommerce/OrderTable.php:267
+msgid "Processed"
+msgstr "Processed"
+
+#: lib/src/Woocommerce/OrderTable.php:270
+msgid "Processed with errors"
+msgstr "Processed with errors"
+
+#: lib/src/Woocommerce/OrderTable.php:274
+msgid "Pickup not supported"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:280
+msgid "Requested"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:283
+msgid "Failed"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:353
+msgid "Stidner shipping information"
+msgstr "Stidner shipping information"
+
+#: lib/src/Woocommerce/OrderTable.php:385
+#: lib/src/Woocommerce/OrderTable.php:431
+#: lib/src/Woocommerce/OrderTable.php:458
+msgid "Error creating labels, please see Wordpress log for more information."
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:402
+#: lib/src/Woocommerce/OrderTable.php:421
+msgid ""
+"Labels were successfully created, you can download them from the table below."
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:564
+#: lib/src/Woocommerce/OrderTable.php:585
+#: lib/src/Woocommerce/OrderTable.php:615
+msgid "Error booking pickup, please see Wordpress log for more information."
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:601
+msgid "Pickup booking created successfully!"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:713
+msgid "Carrier and price"
+msgstr "Carrier and price"
+
+#: lib/src/Woocommerce/OrderTable.php:721
+msgid "Ship order"
+msgstr "Ship order"
+
+#: lib/src/Woocommerce/OrderTable.php:729
+msgid "Return order"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:739
+msgid "Labels"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:793
+msgid "Service Point"
+msgstr "Service Point"
+
+#: lib/src/Woocommerce/OrderTable.php:811
+msgid "Pick-up at"
+msgstr "Pick-up at"
+
+#: lib/src/Woocommerce/OrderTable.php:846 stidner.php:68
+msgid "Shipped"
+msgstr "Shipped"
+
+#: lib/src/Woocommerce/OrderTable.php:863 templates/cart/cart.php:72
+#: templates/cart/cart.php:184
+msgid "Price"
+msgstr "Price"
+
+#: lib/src/Woocommerce/OrderTable.php:930
+msgid "Ship"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:935
+#: lib/src/Woocommerce/OrderTable.php:1004
+#: lib/src/Woocommerce/OrderTable.php:1034
+msgid "Return"
+msgstr "Return"
+
+#: lib/src/Woocommerce/OrderTable.php:940
+msgid "Shipment + Return"
+msgstr "Shipment + Return"
+
+#: lib/src/Woocommerce/OrderTable.php:943
+msgid "Order is fully shipped"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:1007
+msgid "No more items to return"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:1031
+msgid "Shipment"
+msgstr "Shipment"
+
+#: lib/src/Woocommerce/OrderTable.php:1054
+msgid "Label url"
+msgstr ""
+
+#: lib/src/Woocommerce/OrderTable.php:1055
+msgid "Link"
+msgstr "Link"
+
+#: lib/src/Woocommerce/OrderTable.php:1061
+msgid "Request Pickup"
+msgstr "Request Pickup"
+
+#: lib/src/Woocommerce/Shipping.php:48
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: lib/src/Woocommerce/Shipping.php:50
+msgid ""
+"Your Merchant ID from <a target=\"_blank\" href=\"https://dashboard.stidner."
+"com/panel/api\">dashboard</a>"
+msgstr ""
+"Your Merchant ID from <a target=\"_blank\" href=\"https://dashboard.stidner."
+"com/panel/api\">dashboard</a>"
+
+#: lib/src/Woocommerce/Shipping.php:56
+msgid ""
+"Your API Key from <a target=\"_blank\" href=\"https://dashboard.stidner.com/"
+"panel/api\">dashboard</a>"
+msgstr ""
+"Your API Key from <a target=\"_blank\" href=\"https://dashboard.stidner.com/"
+"panel/api\">dashboard</a>"
+
+#: lib/src/Woocommerce/Shipping.php:60
+msgid "Step 1 Title"
+msgstr ""
+
+#: lib/src/Woocommerce/Shipping.php:66
+msgid "Step 2 Title"
+msgstr ""
+
+#: lib/src/Woocommerce/Shipping.php:72
+msgid "Step 3 Title"
+msgstr ""
+
+#: lib/src/Woocommerce/WcOrderActions.php:32
+#: lib/src/Woocommerce/WcOrderActions.php:87
+#: lib/src/Woocommerce/WcOrderActions.php:135
+#: lib/src/Woocommerce/WcOrderActions.php:220
+msgid "Error: Unable to create order. Please try again."
+msgstr "Error: Unable to create order. Please try again."
+
+#: lib/src/Woocommerce/WcOrderActions.php:116
+msgid "Error: Unable to add order item. Please try again."
+msgstr "Error: Unable to add order item. Please try again."
+
+#: lib/src/Woocommerce/WcOrderActions.php:205
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "Error %d: Unable to create order. Please try again."
+
+#: stidner.php:92
+msgid "Track your package"
+msgstr "Track your package"
+
+#: templates/cart/cart.php:71 templates/cart/cart.php:146
+msgid "Product"
+msgstr "Product"
+
+#: templates/cart/cart.php:73 templates/cart/cart.php:195
+msgid "Quantity"
+msgstr "Quantity"
+
+#: templates/cart/cart.php:74 templates/cart/cart.php:224
+msgid "Total"
+msgstr "Total"
+
+#: templates/cart/cart.php:120
+msgid "Remove this item"
+msgstr "Remove this item"
+
+#: templates/cart/cart.php:177
+msgid "Available on backorder"
+msgstr "Available on backorder"
+
+#: templates/cart/cart.php:244
+msgid "Coupon:"
+msgstr "Coupon:"
+
+#: templates/cart/cart.php:251
+msgid "Coupon code"
+msgstr "Coupon code"
+
+#: templates/cart/cart.php:255
+msgid "Apply coupon"
+msgstr "Apply coupon"
+
+#: templates/cart/cart.php:261
+msgid "Update cart"
+msgstr "Update cart"
+
+#: templates/checkout/thankyou.php:12
+msgid "Order Received - №"
+msgstr "Order Received - №"
+
+#~ msgid "Enable/Disable"
+#~ msgstr "Enable/Disable"
+
+#~ msgid "Enable Payson"
+#~ msgstr "Enable Payson"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "This controls the title which the user sees during checkout."
+#~ msgstr "This controls the title which the user sees during checkout."
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid ""
+#~ "Pay with Payson via invoice, card, direct bank payments, part payment and "
+#~ "sms."
+#~ msgstr ""
+#~ "Pay with Payson via invoice, card, direct bank payments, part payment and "
+#~ "sms."
+
+#~ msgid "This controls the description which the user sees during checkout."
+#~ msgstr "This controls the description which the user sees during checkout."
+
+#~ msgid ""
+#~ "Error creating waybills, please see Wordpress log for more information."
+#~ msgstr ""
+#~ "Error creating waybills, please see Wordpress log for more information."
+
+#~ msgid ""
+#~ "Waybills were successfully created, you can download them from the table "
+#~ "below."
+#~ msgstr ""
+#~ "Waybills were successfully created, you can download them from the table "
+#~ "below."
+
+#~ msgid "Waybills"
+#~ msgstr "Waybills"
+
+#~ msgid "Waybill url"
+#~ msgstr "Waybill url"
+
+#~ msgid ""
+#~ "Allows your customers to choose their shipment option and servicepoint "
+#~ "directly in checkout. <a target=\"_blank\" href=\"https://dashboard."
+#~ "stidner.com/auth/register\">Click here to sign up</a>."
+#~ msgstr ""
+#~ "Allows your customers to choose their shipment option and servicepoint "
+#~ "directly in checkout. <a target=\"_blank\" href=\"https://dashboard."
+#~ "stidner.com/auth/register\">Click here to sign up</a>."
+
+#~ msgid "Enable"
+#~ msgstr "Enable"
+
+#~ msgid "Test Mode"
+#~ msgstr "Test Mode"
+
+#~ msgid "Use this to test Stidner without making real shipments"
+#~ msgstr "Use this to test Stidner without making real shipments"
+
+#~ msgid "Stidner"
+#~ msgstr "Stidner"
+
+#~ msgid "Stidner shipping service description"
+#~ msgstr "Stidner shipping service description"
+
+#~ msgid "Step 1. Review your order"
+#~ msgstr "Step 1. Review your order"
+
+#~ msgid "Step 2. Shipment"
+#~ msgstr "Step 2. Shipment"
+
+#~ msgid "Step 3. Payment"
+#~ msgstr "Step 3. Payment"

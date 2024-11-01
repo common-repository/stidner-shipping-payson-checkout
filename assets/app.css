@@ -1,0 +1,22 @@
+#__stidner_shipping_iframe {
+    width: 100%;
+}
+
+.stidner-payson--wrapper {
+    width: 100%;
+    display: block;
+}
+
+#payment.stidner-payson-checkout-payment, #payment .place-order.stidner-payson-place-order {
+   background-color: transparent;
+}
+
+.hide-stidner-payson-iframe-container {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+table.cart.stidner-table {
+    margin-bottom: 1em;
+}
